@@ -1,5 +1,9 @@
-for(let i=0; i<=10;i++)
+for(let i=1;i<5;i++)
   {
-     console.log(i) 
+    for(let j=0; j<i; j++)
+      {
+        temp=i.toString()
+        process.stdout.write(temp+" ")
+      }
+    console.log()
   }
-let text = num.toString();
